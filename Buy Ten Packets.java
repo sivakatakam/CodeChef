@@ -5,12 +5,16 @@ class Codechef
     {
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();
-        while(t-->0)
+        while(t-- >0)
         {
             int x=sc.nextInt();
             int y=sc.nextInt();
-            int s=2*y+x;
-            System.out.println(s);
+            int a=(2*y)+x;
+            int b=5*x;
+            if(a<b)
+            System.out.println(a);
+            else
+            System.out.println(b);
         }
     }
 }
